@@ -1,0 +1,45 @@
+* {
+  color: $text;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+strong {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

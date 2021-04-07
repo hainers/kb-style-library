@@ -1,0 +1,117 @@
+.kb-btn {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 12px;
+  text-decoration: none;
+  color: $text;
+  font-weight: 500;
+  text-align: center;
+
+  &--primary {
+    background: $linear-red;
+    color: #fff;
+  }
+
+  &--secondary {
+    background-color: $yellow;
+  }
+
+  &--third {
+    border: 1px solid #DDDDDD;
+    background: #fff;
+    font-weight: 400;
+  }
+
+  &--border {
+    background: #fff;
+    border: 1px solid;
+  }
+
+  &--border-red {
+    border-color: $red;
+    color: $red;
+    transition: all .1s ease-in-out;
+
+    &:hover {
+      background: $linear-red;
+      color: #fff;
+    }
+  }
+
+  &--small {
+    padding: 4px;
+  }
+
+  &--full-width {
+    display: block;
+    width: 100%;
+  }
+
+  &--mobile-full-idth {
+    display: block;
+    width: 100%;
+  }
+
+  &--with-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+      transform: translateY(3px);
+      background: blue;
+    }
+
+    &--plus {
+      &:before {
+        background: url('/images/kb-arrow-down.svg') no-repeat center;
+        background-size: 16px;
+      }
+    }
+  }
+
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .kb-btn--mobile-full-width {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.kb-field {
+
+  &--input,
+  &--select {
+
+    .kb-field {
+      &__label {
+        display: block;
+        margin-bottom: 6px;
+        line-height: 16px;
+      }
+      &__input,
+      &__select {
+        padding: 12px;
+        border: 1px solid #ddd;
+        outline: none;
+
+        &::placeholder {
+          color: $text-light;
+        }
+      }
+    }
+  }
+
+  &--small {
+    .kb-field__input,
+    .kb-field__selext {
+      padding: 4px 8px;
+    }
+  }
+}

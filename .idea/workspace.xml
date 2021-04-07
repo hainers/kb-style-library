@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d4e0f6-c7f5-4aa8-9b2c-24b1537c9b63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/partials/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/partials/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/partials/_variables.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qqN8apkSQmiW0A7X5htYDlOoDi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="342" width="692" height="671" key="EditFileWatcherDialog" timestamp="1617803251760">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="550" y="342" width="692" height="671" key="EditFileWatcherDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1617803251760" />
+    <state x="405" y="196" key="SettingsEditor" timestamp="1617803253293">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="405" y="196" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1617803253293" />
+  </component>
+</project>

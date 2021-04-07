@@ -1,0 +1,138 @@
+* {
+  color: #333;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: #0075FF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.kb-btn {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.kb-btn--primary {
+  background: linear-gradient(180deg, #E80F0E 0%, #A10000 100%);
+  color: #fff;
+}
+.kb-btn--secondary {
+  background-color: #FFF200;
+}
+.kb-btn--third {
+  border: 1px solid #DDDDDD;
+  background: #fff;
+  font-weight: 400;
+}
+.kb-btn--border {
+  background: #fff;
+  border: 1px solid;
+}
+.kb-btn--border-red {
+  border-color: #E80F0E;
+  color: #E80F0E;
+  transition: all 0.1s ease-in-out;
+}
+.kb-btn--border-red:hover {
+  background: linear-gradient(180deg, #E80F0E 0%, #A10000 100%);
+  color: #fff;
+}
+.kb-btn--small {
+  padding: 4px;
+}
+.kb-btn--full-width {
+  display: block;
+  width: 100%;
+}
+.kb-btn--mobile-full-idth {
+  display: block;
+  width: 100%;
+}
+.kb-btn--with-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  transform: translateY(3px);
+  background: blue;
+}
+.kb-btn--with-icon--plus:before {
+  background: url("/images/kb-arrow-down.svg") no-repeat center;
+  background-size: 16px;
+}
+.kb-btn:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .kb-btn--mobile-full-width {
+    display: inline-block;
+    width: auto;
+  }
+}
+.kb-field--input .kb-field__label, .kb-field--select .kb-field__label {
+  display: block;
+  margin-bottom: 6px;
+  line-height: 16px;
+}
+.kb-field--input .kb-field__input, .kb-field--input .kb-field__select, .kb-field--select .kb-field__input, .kb-field--select .kb-field__select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+.kb-field--input .kb-field__input::placeholder, .kb-field--input .kb-field__select::placeholder, .kb-field--select .kb-field__input::placeholder, .kb-field--select .kb-field__select::placeholder {
+  color: #999;
+}
+.kb-field--small .kb-field__input,
+.kb-field--small .kb-field__selext {
+  padding: 4px 8px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background: #f5f5f5;
+}
+
+/*# sourceMappingURL=index.css.map */
