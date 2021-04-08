@@ -6,6 +6,7 @@
   color: $text;
   font-weight: 500;
   text-align: center;
+  transition: all .1s ease-in-out;
 
   &--primary {
     background: $linear-red;
@@ -33,8 +34,8 @@
     transition: all .1s ease-in-out;
 
     &:hover {
-      background: $linear-red;
-      color: #fff;
+      border-color: $red2;
+      color: $red2;
     }
   }
 
@@ -53,21 +54,12 @@
   }
 
   &--with-icon {
-    &:before {
-      content: '';
+    .icon {
+      font-size: 16px;
       display: inline-block;
-      width: 16px;
-      height: 16px;
       margin-right: 4px;
-      transform: translateY(3px);
-      background: blue;
-    }
-
-    &--plus {
-      &:before {
-        background: url('/images/kb-arrow-down.svg') no-repeat center;
-        background-size: 16px;
-      }
+      transform: translateY(1px);
+      color: #fff;
     }
   }
 
@@ -97,6 +89,8 @@
       }
       &__input,
       &__select {
+        display: block;
+        width: 100%;
         padding: 12px;
         border: 1px solid #ddd;
         outline: none;
@@ -107,11 +101,166 @@
       }
     }
   }
+  &--select {
+    position: relative;
+
+    select {
+      -webkit-appearance: none;
+    }
+
+    &:before {
+      font-family: 'icomoon';
+      content: '\e913';
+      position: absolute;
+      display: block;
+      right: 12px;
+      top: 36px;
+    }
+  }
+
+  &--checkbox {
+
+    input {
+      padding: 0;
+      height: initial;
+      width: initial;
+      margin-bottom: 0;
+      display: none;
+      cursor: pointer;
+    }
+
+    label {
+      position: relative;
+      cursor: pointer;
+
+      &:before {
+        content:'';
+        position: relative;
+        display: inline-block;
+        top: -1px;
+        margin-right: 5px;
+        padding: 6px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        background: #fff;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        -webkit-appearance: none;
+        vertical-align: middle;
+        cursor: pointer;
+
+      }
+    }
+    input:checked + label:before{
+      background: $blue;
+      border-color: $blue;
+    }
+    input:checked + label:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 2px;
+      left: 5px;
+      width: 3px;
+      height: 8px;
+      border: solid #FFF;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  &--radio {
+
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+      position: absolute;
+      left: -9999px;
+    }
+
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label {
+      position: relative;
+      display: inline-block;
+      padding-left: 28px;
+      line-height: 20px;
+      cursor: pointer;
+    }
+
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 1px;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #ddd;
+      border-radius: 100%;
+      background: #fff;
+    }
+
+    [type="radio"]:checked + label:before {
+      border-color: $blue;
+    }
+
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 4px;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background: $blue;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+
+    [type="radio"]:not(:checked) + label:after {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+
+    [type="radio"]:checked + label:after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
 
   &--small {
+
     .kb-field__input,
-    .kb-field__selext {
+    .kb-field__select {
       padding: 4px 8px;
+    }
+
+    &.kb-field--select:before {
+      top: 28px;
+    }
+
+    &.kb-field--radio {
+
+      [type="radio"]:checked + label:before,
+      [type="radio"]:not(:checked) + label:before {
+        width: 12px;
+        height: 12px;
+        top: 3px;
+      }
+
+      [type="radio"]:checked + label:after,
+      [type="radio"]:not(:checked) + label:after {
+        top: 6px;
+        left: 3px;
+        width: 8px;
+        height: 8px;
+      }
+
+      [type="radio"]:checked + label,
+      [type="radio"]:not(:checked) + label {
+        padding-left: 22px;
+      }
     }
   }
 }

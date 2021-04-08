@@ -11,11 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d4e0f6-c7f5-4aa8-9b2c-24b1537c9b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/partials/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/partials/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/partials/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kb-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/partials/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +44,14 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">

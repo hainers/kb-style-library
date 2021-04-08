@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot');
+  src:  url('fonts/icomoon.eot?dep2iz#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf') format('truetype'),
+  url('fonts/icomoon.woff') format('woff'),
+  url('fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kb-more:before {
+  content: "\e900";
+}
+.icon-kb-add:before {
+  content: "\e901";
+}
+.icon-kb-pin:before {
+  content: "\e902";
+}
+.icon-kb-star:before {
+  content: "\e903";
+}
+.icon-kb-star-empty:before {
+  content: "\e904";
+}
+.icon-kb-view:before {
+  content: "\e90c";
+}
+.icon-kb-gallery:before {
+  content: "\e90d";
+}
+.icon-kb-delete:before {
+  content: "\e90e";
+}
+.icon-kb-edit:before {
+  content: "\e90f";
+}
+.icon-kb-stats:before {
+  content: "\e910";
+}
+.icon-kb-check:before {
+  content: "\e911";
+}
+.icon-kb-warning:before {
+  content: "\e912";
+}
+.icon-kb-arrow-down:before {
+  content: "\e913";
+}

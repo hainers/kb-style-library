@@ -14,6 +14,11 @@
 </head>
 
 <body>
+<div style="display: flex;align-content: center;">
+    <img src="images/kb-logo.svg" alt="">
+    <h1>KuldneBörs style library</h1>
+</div>
+
 
 <h1>Heading1</h1>
 <h2>Heading2</h2>
@@ -36,20 +41,21 @@
 <a href="#" class="kb-btn kb-btn--third">Third button</a>
 <a href="#" class="kb-btn kb-btn--border kb-btn--border-red">Border button</a>
 <a href="#" class="kb-btn kb-btn--primary kb-btn--small">Primary small button</a>
-<a href="#" class="kb-btn kb-btn--primary kb-btn--with-icon kb-btn--with-icon--plus">Primary button w icon</a>
+<a href="#" class="kb-btn kb-btn--primary kb-btn--with-icon"><span class="icon icon-kb-add"></span>Primary button w icon</a>
 <a href="#" class="kb-btn kb-btn--secondary kb-btn--full-width">Full width button</a>
 <a href="#" class="kb-btn kb-btn--primary kb-btn--mobile-full-width">Mobile full width</a>
 
-<h4>Form elements</h4>
-<div class="kb-field kb-field--input">
+<h4>Inputs</h4>
+<div class="kb-field kb-field--input mt-3">
     <label for="" class="kb-field__label">Input</label>
     <input type="text" class="kb-field__input" placeholder="Palun sisesta midagi">
 </div>
-<div class="kb-field kb-field--input kb-field--small">
+<div class="kb-field kb-field--input kb-field--small mt-3">
     <label for="" class="kb-field__label">Small Input</label>
     <input type="text" class="kb-field__input" placeholder="Palun sisesta midagi">
 </div>
-<div class="kb-field kb-field--select">
+<h4>Select dropdowns</h4>
+<div class="kb-field kb-field--select mt-3">
     <label for="" class="kb-field__label">Select label</label>
     <select name="" id="" class="kb-field__select">
         <option value="">Option1</option>
@@ -57,20 +63,42 @@
         <option value="">Option3</option>
     </select>
 </div>
-<div class="kb-field kb-field--checkbox">
-    <label for="" class="kb-field__label">
-        <input type="checkbox">This is a checkbox
-    </label>
+<div class="kb-field kb-field--select kb-field--small mt-3">
+    <label for="" class="kb-field__label">Small select label</label>
+    <select name="" id="" class="kb-field__select">
+        <option value="">Option1</option>
+        <option value="">Option2</option>
+        <option value="">Option3</option>
+    </select>
 </div>
-<div class="kb-field kb-field--radio">
-    <label for="" class="kb-field__label">
-        <input type="radio" name="radio" checked>This is a radio input
-    </label>
-    <label for="" class="kb-field__label">
-        <input type="radio" name="radio">This is a radio input
-    </label>
+<h4>Checkboxes</h4>
+<div class="kb-field kb-field--checkbox mt-3">
+    <input type="checkbox" id="html">
+    <label for="html">HTML</label>
+</div>
+<div class="kb-field kb-field--checkbox mt-3">
+    <input type="checkbox" id="css">
+    <label for="css">CSS</label>
+</div>
+<h4>Radio inputs</h4>
+<div class="kb-field kb-field--radio mt-3">
+    <input type="radio" id="test1" name="kbtest" checked>
+    <label for="test1">Option1</label>
+</div>
+<div class="kb-field kb-field--radio mt-3">
+    <input type="radio" id="test2"name="kbtest" >
+    <label for="test2">Option2</label>
 </div>
 
+<h4>Small radio inputs</h4>
+<div class="kb-field kb-field--radio kb-field--small mt-3">
+    <input type="radio" id="test4" name="kbtest2" checked>
+    <label for="test4">Option1</label>
+</div>
+<div class="kb-field kb-field--radio kb-field--small mt-3">
+    <input type="radio" id="test3"name="kbtest2">
+    <label for="test3">Option2</label>
+</div>
 
 <!-- Scripts -->
 <script src="scripts/index.js"></script>
