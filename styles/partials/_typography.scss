@@ -3,22 +3,26 @@
 }
 
 h1 {
-  font-size: 26px;
+  margin-bottom: 24px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
+  margin-bottom: 20px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 16px;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 16px;
+  margin-bottom: 16px;
   font-weight: 600;
 }
 
@@ -42,4 +46,12 @@ strong {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.kb-list {
+  padding: 8px 0 8px 20px;
+  list-style: disc;
+  li {
+    padding-bottom: 6px;
+  }
 }

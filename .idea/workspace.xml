@@ -11,18 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d4e0f6-c7f5-4aa8-9b2c-24b1537c9b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/kb-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/partials/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/vendor/_spacing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
