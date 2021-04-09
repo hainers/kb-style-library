@@ -49,6 +49,22 @@ strong {
   text-transform: uppercase;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-lighter {
+  color: $text-light;
+}
+
 .kb-list {
   padding: 8px 0 8px 20px;
   list-style: disc;

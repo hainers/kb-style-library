@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--  Meta  -->
+    <meta charset="UTF-8">
+    <title>KB visual library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  Styles  -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,500,600"/>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="row mb-5 mt-2">
+        <div class="col-12">
+            <div class="row align-items-center">
+                <div class="col-2"><img src="images/kb-logo.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-5 col-xl-4 offset-md-3 offset-lg-4 offset-xl-4">
+            <form action="" class="login-form">
+                <h1 class="text-center mb-5">Registreeru kasutajaks</h1>
+                <div class="row mb-4">
+                    <div class="col-5 col-md-3 offset-1 offset-md-2 mr-md-4">
+                        <div class="kb-field kb-field--radio mt-3">
+                            <input type="radio" id="kbera" name="kbtype" checked>
+                            <label for="kbera">Eraklient</label>
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-3">
+                        <div class="kb-field kb-field--radio mt-3">
+                            <input type="radio" id="kbfirma"name="kbtype" >
+                            <label for="kbfirma">Ettevõte</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kb-field kb-field--input mt-3 kb-register-email">
+                    <label for="username" class="kb-field__label">E-maili aadress*</label>
+                    <input type="text" class="kb-field__input" id="username" placeholder="Sisesta e-mail*">
+                </div>
+                <div class="kb-register-private">
+                    <div class="kb-field kb-field--input mt-3 kb-register-firstname">
+                        <label for="firstname" class="kb-field__label">Eesnimi*</label>
+                        <input type="text" class="kb-field__input" id="firstname" placeholder="Sisesta eesnimi*">
+                    </div>
+                    <div class="kb-field kb-field--input mt-3 kb-register-lastname">
+                        <label for="lastname" class="kb-field__label">Perekonnanimi*</label>
+                        <input type="text" class="kb-field__input" id="lastname" placeholder="Sisesta perekonnanimi*">
+                    </div>
+                </div>
+                <div class="kb-register-company d-none">
+                    <div class="kb-field kb-field--input mt-3 kb-register-firstname">
+                        <label for="firstname" class="kb-field__label">Firma nimi*</label>
+                        <input type="text" class="kb-field__input" id="firstname" placeholder="Sisesta firma nimi*">
+                    </div>
+                    <div class="kb-field kb-field--input mt-3 kb-register-lastname">
+                        <label for="lastname" class="kb-field__label">Registi number*</label>
+                        <input type="text" class="kb-field__input" id="lastname" placeholder="Sisesta registrinumber*">
+                    </div>
+                </div>
+
+                <div class="kb-field kb-field--input mt-3 kb-register-password1">
+                    <label for="password" class="kb-field__label">Parool*</label>
+                    <input type="password" class="kb-field__input" id="password" placeholder="Sisesta parool*">
+                </div>
+
+                <div class="kb-field kb-field--input mt-3 kb-register-password2">
+                    <label for="passwordagain" class="kb-field__label">Parool uuesti*</label>
+                    <input type="password" class="kb-field__input" id="passwordagain" placeholder="Sisesta parool uuesti*">
+                </div>
+                <button class="kb-btn kb-btn--primary kb-btn--full-width mt-4">Registreeri</button>
+
+                <p class="text-center mt-4 text-lighter">Või ühenda kontoga</p>
+
+                <div class="mt-2" style="max-width: 300px;margin:0 auto;">
+                    <img src="images/dummy-buttons.png" alt="" style="width: calc(100% + 5px);margin-left: -2px">
+                </div>
+
+                <p class="text-center mt-3">
+                    Juba kasutaja? <a href="login.html">Logi sisse</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Scripts -->
+<script src="scripts/index.js"></script>
+
+</body>
+
+</html>
