@@ -4341,6 +4341,23 @@ strong {
   padding-bottom: 6px;
 }
 
+.kb-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+.kb-table thead {
+  font-weight: 500;
+}
+.kb-table thead td {
+  background-color: #EDF2F4;
+}
+.kb-table tr:hover td {
+  background-color: #f2f2f2;
+}
+.kb-table--full-width {
+  width: 100%;
+}
+
 .kb-btn {
   display: inline-block;
   border-radius: 2px;

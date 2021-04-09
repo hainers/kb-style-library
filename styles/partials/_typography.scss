@@ -55,3 +55,31 @@ strong {
     padding-bottom: 6px;
   }
 }
+
+//Tables
+.kb-table {
+
+  td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+  thead {
+    font-weight: 500;
+
+    td {
+      background-color: $light-blue-gray;
+    }
+  }
+
+  tr {
+    &:hover {
+      td {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+}
