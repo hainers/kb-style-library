@@ -27,6 +27,11 @@
             <form action="" class="login-form">
                 <h1 class="text-center mb-6">Logi sisse</h1>
 
+                <div class="login-options">
+                    <a href="javascript:;" class="login-options__item login-options__item--id-card" data-micromodal-trigger="idcard"><img src="images/logos/id_kaart.png" alt=""></a>
+                    <a href="javascript:;" class="login-options__item login-options__item--mobile-id" data-micromodal-trigger="mobileid"><img src="images/logos/mobiil_id.png" alt=""></a>
+                    <a href="javascript:;" class="login-options__item" data-micromodal-trigger="smartid"><img src="images/logos/smart_id.png" alt=""></a>
+                </div>
                 <div class="kb-field kb-field--input mt-3">
                     <label for="username" class="kb-field__label">E-maili aadress</label>
                     <input type="text" class="kb-field__input" id="username" placeholder="Sisesta e-mail">
@@ -41,7 +46,7 @@
                 </p>
 
 
-                <button class="kb-btn kb-btn--primary kb-btn--full-width mt-4">Registreeri</button>
+                <button class="kb-btn kb-btn--primary kb-btn--full-width mt-4">Logi sisse</button>
 
                 <div class="mt-6" style="max-width: 300px;margin:0 auto;">
                     <img src="images/dummy-buttons.png" alt="" style="width: calc(100% + 5px);margin-left: -2px">
@@ -55,11 +60,71 @@
     </div>
 </div>
 
+<div class="modal modal--sm micromodal-slide" id="idcard" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="mobileid-title">
+            <header class="modal__header">
+                <h2 class="modal__title" id="idcard-title">LOGI SISSE ID kaardiga</h2>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="modal__content" id="idcard-content">
+                <p>Logi sisse ID-kaardiga vms</p>
+            </main>
+            <footer class="modal__footer">
+                <a href="javascript:;" class="kb-btn kb-btn--primary kb-btn--full-width">Edasi</a>
+            </footer>
+        </div>
+    </div>
+</div>
 
+<div class="modal modal--sm micromodal-slide" id="mobileid" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="mobileid-title">
+            <header class="modal__header">
+                <h2 class="modal__title" id="mobileid-title">LOGI SISSE MOBIIL-ID ABIL</h2>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="modal__content" id="mobileid-content">
+                <div class="kb-field kb-field--input mt-3">
+                    <label for="personalcode" class="kb-field__label">Isikukood</label>
+                    <input type="text" class="kb-field__input" id="personalcode" placeholder="Sisesta isikukood">
+                </div>
+                <div class="kb-field kb-field--input mt-3">
+                    <label for="phonenumber" class="kb-field__label">Telefoni number</label>
+                    <input type="tel" class="kb-field__input" id="phonenumber" placeholder="Sisesta telefoninumber">
+                </div>
+            </main>
+            <footer class="modal__footer">
+                <a href="javascript:;" class="kb-btn kb-btn--primary kb-btn--full-width">Logi sisse</a>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal--sm micromodal-slide" id="smartid" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="mobileid-title">
+            <header class="modal__header">
+                <h2 class="modal__title" id="smartid-title">LOGI SISSE SMART-ID'ga</h2>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="modal__content" id="smartid-content">
+                <div class="kb-field kb-field--input mt-3">
+                    <label for="personalcode" class="kb-field__label">Isikukood</label>
+                    <input type="text" class="kb-field__input" id="personalcode" placeholder="Sisesta isikukood">
+                </div>
+            </main>
+            <footer class="modal__footer">
+                <a href="javascript:;" class="kb-btn kb-btn--primary kb-btn--full-width">Logi sisse</a>
+            </footer>
+        </div>
+    </div>
+</div>
 
 
 
 <!-- Scripts -->
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
 <script src="scripts/index.js"></script>
 
 </body>

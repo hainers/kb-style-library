@@ -2,3 +2,37 @@
   max-width: 340px;
   margin: 0 auto;
 }
+
+.login-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+
+  &__item {
+    flex: 0 0 32%;
+    margin-right: 8px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    overflow: hidden;
+
+
+
+    &--id-card,
+    &--mobile-id {
+      padding: 5px 4px 4px;
+    }
+
+    &--id-card {
+      padding-left: 12px;
+      padding-right: 0;
+    }
+
+    &--smart-id {
+      margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
