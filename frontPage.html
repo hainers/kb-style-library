@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--  Meta  -->
+    <meta charset="UTF-8">
+    <title>KB visual library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  Styles  -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"/>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+<div class="container header-container">
+
+    <div class="kb-header kb-header--mobile">
+        <div class="header-wrap">
+            <div class="header-wrap__group">
+                <a href=""><img src="images/kb-logo.svg" alt="" class="kb-logo"></a>
+                <a href="#" class="kb-btn kb-btn--secondary kb-btn--with-icon mr-2 kb-btn--responsive"><span class="icon icon-kb-add"></span>Lisa kuulutus</a>
+            </div>
+            <div class="header-wrap__group">
+                <a href="#" class="header-wrap__login">Logi sisse</a>
+                <a href="" class="header-wrap__register">Registreeri</a>
+                <div class="kb-field kb-field--select kb-header__lang-switch">
+                    <select name="" id="" class="kb-field__select">
+                        <option value="ET">ET</option>
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="kb-header kb-header--desktop mt-3">
+        <div class="header-wrap">
+            <div class="header-wrap__group">
+                <a href="#" class="kb-btn kb-btn--secondary kb-btn--with-icon mr-2"><span class="icon icon-kb-add"></span>Lisa kuulutus</a>
+
+            </div>
+            <div class="header-wrap__group">
+                <a href="#" class="header-wrap__login">Logi sisse</a>
+                <a href="" class="header-wrap__register ml-2">Registreeri</a>
+                <div class="kb-field kb-field--select kb-header__lang-switch">
+                    <select name="" id="" class="kb-field__select">
+                        <option value="ET">ET</option>
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-12 offset-md-3 offset-lg-2">
+            <div class="kb-search-form-tabs">
+                <div class="kb-search-form-tabs__item kb-search-form-tabs__item--active js-kb-search-form__toggle-collapse">Otsing</div>
+                <div class="kb-search-form-tabs__item kb-search-form-tabs__item--detailed js-kb-search-form__toggle-mobile">Täpsem otsing</div>
+                <div class="kb-search-form-tabs__item js-kb-search-form__toggle-saved">Salvestatud otsingud</div>
+            </div>
+        </div>
+    </div>
+    <div class="row kb-search-form-container">
+        <div class="col-12 col-md-2 col-lg-2 d-none d-md-block">
+            <a href=""><img src="images/kb-logo.svg" alt="" class="kb-logo kb-logo--search"></a>
+        </div>
+        <form class="col-12 col-md-10 kb-search-form">
+            <div class="row">
+                <div class="col-12 kb-search-form__visible-fields">
+                    <div class="kb-field kb-field--input kb-search-form__search-field">
+                        <input type="text" class="kb-field__input" placeholder="Sisesta midagi otsimiseks...">
+                    </div>
+                    <div class="kb-field kb-field--select kb-field--without-label kb-search-form__category-field">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="" selected>Vali rubriik</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <a href="#" class="kb-btn kb-btn--primary mx-2 kb-search-form__search-button">OTSI</a>
+                    <span class="kb-search-form__toggle js-kb-search-form__toggle d-none d-md-block">Täpsem otsing <span class="icon icon-kb-arrow-down"></span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 kb-search-form__hidden-fields kb-search-form__hidden-fields--detailed">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label">Hind alates</label>
+                                        <input type="text" class="kb-field__input" placeholder="Hind alates">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label">Hind kuni</label>
+                                        <input type="text" class="kb-field__input" placeholder="Hind kuni">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Tehingu tüüp</label>
+                                        <select name="" id="" class="kb-field__select">
+                                            <option value="">Tehingu tüüp</option>
+                                            <option value="">Option2</option>
+                                            <option value="">Option3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Seisukord</label>
+                                        <select name="" id="" class="kb-field__select">
+                                            <option value="">Seisukord</option>
+                                            <option value="">Option2</option>
+                                            <option value="">Option3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--checkbox mt-3">
+                                        <input type="checkbox" id="withImage">
+                                        <label for="withImage">Pildiga kuulutused</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--checkbox mt-3">
+                                        <input type="checkbox" id="withVideo">
+                                        <label for="withVideo">Videoga kuulutused</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="kb-field kb-field--input mt-3">
+                                <label for="" class="kb-field__label">Asukoht</label>
+                                <input type="text" class="kb-field__input" placeholder="Asukoha täpsustus">
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Tehingu tüüp</label>
+                                        <select name="" id="" class="kb-field__select">
+                                            <option value="">Tehingu tüüp</option>
+                                            <option value="">Option2</option>
+                                            <option value="">Option3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Seisukord</label>
+                                        <select name="" id="" class="kb-field__select">
+                                            <option value="">Seisukord</option>
+                                            <option value="">Option2</option>
+                                            <option value="">Option3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Kuulutuse vanus</label>
+                                        <select name="" id="" class="kb-field__select">
+                                            <option value="">Vali kuulutuse vanus</option>
+                                            <option value="">Option2</option>
+                                            <option value="">Option3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-2 mt-3 mt-lg-0">
+                            <a href="#" class="kb-btn kb-btn--primary kb-btn--full-width">OTSI</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 kb-search-form__hidden-fields kb-search-form__hidden-fields--saved">
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<!-- Scripts -->
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/modal.min.js"></script>
+<script src="scripts/index.js"></script>
+
+</body>
+
+</html>

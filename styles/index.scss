@@ -8,6 +8,7 @@
 @import 'partials/form';
 @import 'partials/modal';
 
+@import 'partials/header';
 @import 'partials/login';
 
 body {
@@ -19,11 +20,29 @@ body {
 *:before,
 *:after {
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  //-webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  width: 100%;
 }
 
 
 .mt-3 {
   margin-top: 1rem;
+}
+
+.container--full-width {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.container--paddingless-mobile {
+  padding: 0;
+
+  @media only screen and (min-width: 575px) {
+    padding: 0 16px;
+  }
 }

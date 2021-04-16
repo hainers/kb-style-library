@@ -11,15 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d4e0f6-c7f5-4aa8-9b2c-24b1537c9b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/vendor/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/vendor/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/vendor/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/partials/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgotPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotPassword.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/partials/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +35,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +55,13 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
@@ -65,8 +79,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618485910538">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1618485910538" />
     <state x="550" y="342" width="692" height="671" key="EditFileWatcherDialog" timestamp="1617803251760">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -75,5 +94,13 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1617803253293" />
+    <state x="597" y="315" width="597" height="576" key="find.popup" timestamp="1618486799484">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="597" y="315" width="597" height="576" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1618486799484" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1618570894208">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1618570894208" />
   </component>
 </project>
