@@ -29,6 +29,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
         $('.kb-search-form__hidden-fields--saved').addClass('open');
     });
 
+    $('.js-user-badge').on('click', function() {
+        $('.user-badge-dropdown').toggleClass('user-badge-dropdown--open')
+    });
+
 
     // Login page id, mobile-id,smart-id actions
 
