@@ -1,0 +1,102 @@
+.category-sidebar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #F5F5EB;
+  }
+
+  &__close {
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 767px) {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: white;
+    bottom: 0;
+    overflow-y: auto;
+    transition: left .3s ease-in-out;
+
+    &--open {
+      left: 0;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    margin-bottom: 16px;
+  }
+}
+
+.category-tree {
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-left: 5px solid;
+    line-height: 1.2;
+
+    &:hover {
+      background: $light-blue-gray;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    a {
+      color: $text;
+    }
+
+    &--subcategory {
+      padding-left: 16px;
+    }
+
+    &--cars {
+      border-left-color: #bad6ed;
+    }
+
+    &--agriculture {
+      border-left-color: #89db09;
+    }
+
+    &--pets {
+      border-left-color: #FF0080;
+    }
+
+    &--real-estate {
+      border-left-color: #feb672;
+    }
+
+    &--work {
+      border-left-color: #feb672;
+    }
+
+    &--business {
+      border-left-color: #e80f0e;
+    }
+
+    &--varia {
+      border-left-color: #ffec00;
+    }
+
+    &--bold {
+      background-color: #F5F5EB;
+      font-weight: 500;
+    }
+  }
+}
+
+.sidebar-toggle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}

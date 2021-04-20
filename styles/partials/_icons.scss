@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-kb-close:before {
+  content: "\e917";
+}
+.icon-kb-list:before {
+  content: "\e916";
+}
 .icon-kb-shopping-cart:before {
   content: "\e915";
 }

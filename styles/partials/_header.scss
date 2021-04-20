@@ -234,7 +234,7 @@
   padding: 12px 8px;
   height: 39px;
   border-radius: 4px;
-  background-color: #EDF2F4;
+  background-color: $light-blue-gray;
   cursor: pointer;
 
   &__icon {
@@ -290,7 +290,7 @@
     }
 
     &:hover {
-      background-color: #EDF2F4;
+      background-color: $light-blue-gray;
     }
 
     &:last-child {
@@ -311,10 +311,31 @@
     font-size: 16px;
     padding: 4px;
     border-radius: 50%;
-    background-color: #EDF2F4;
+    background-color: $light-blue-gray;
   }
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+.breadcrumbs {
+  margin: 8px 0;
+  &__item {
+    display: inline;
+    a {
+      color: $text;
+    }
+
+    &:after {
+      content: ' > ';
+    }
+
+    &--active {
+      font-weight: 500;
+      &:after {
+        content: '';
+      }
+    }
   }
 }

@@ -4237,6 +4237,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-kb-close:before {
+  content: "";
+}
+
+.icon-kb-list:before {
+  content: "";
+}
+
 .icon-kb-shopping-cart:before {
   content: "";
 }
@@ -5054,6 +5062,112 @@ strong {
 }
 .shopping-cart:hover {
   text-decoration: none;
+}
+
+.breadcrumbs {
+  margin: 8px 0;
+}
+.breadcrumbs__item {
+  display: inline;
+}
+.breadcrumbs__item a {
+  color: #333;
+}
+.breadcrumbs__item:after {
+  content: " > ";
+}
+.breadcrumbs__item--active {
+  font-weight: 500;
+}
+.breadcrumbs__item--active:after {
+  content: "";
+}
+
+.category-sidebar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.category-sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #F5F5EB;
+}
+.category-sidebar__close {
+  font-size: 12px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .category-sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: white;
+    bottom: 0;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+  }
+  .category-sidebar--open {
+    left: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .category-sidebar {
+    margin-bottom: 16px;
+  }
+}
+
+.category-tree__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-left: 5px solid;
+  line-height: 1.2;
+}
+.category-tree__item:hover {
+  background: #EDF2F4;
+}
+.category-tree__item:hover a {
+  text-decoration: none;
+}
+.category-tree__item a {
+  color: #333;
+}
+.category-tree__item--subcategory {
+  padding-left: 16px;
+}
+.category-tree__item--cars {
+  border-left-color: #bad6ed;
+}
+.category-tree__item--agriculture {
+  border-left-color: #89db09;
+}
+.category-tree__item--pets {
+  border-left-color: #FF0080;
+}
+.category-tree__item--real-estate {
+  border-left-color: #feb672;
+}
+.category-tree__item--work {
+  border-left-color: #feb672;
+}
+.category-tree__item--business {
+  border-left-color: #e80f0e;
+}
+.category-tree__item--varia {
+  border-left-color: #ffec00;
+}
+.category-tree__item--bold {
+  background-color: #F5F5EB;
+  font-weight: 500;
+}
+
+.sidebar-toggle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .login-form {

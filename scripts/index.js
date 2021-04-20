@@ -33,6 +33,14 @@ document.addEventListener('DOMContentLoaded', function(event) {
         $('.user-badge-dropdown').toggleClass('user-badge-dropdown--open')
     });
 
+    $('.js-sidebar-toggle').on('click', function() {
+        $('.category-sidebar').addClass('category-sidebar--open');
+    });
+
+    $('.js-sidebar-close').on('click', function() {
+        $('.category-sidebar').removeClass('category-sidebar--open');
+    });
+
 
     // Login page id, mobile-id,smart-id actions
 
