@@ -5235,8 +5235,10 @@ strong {
   border-left: 4px solid;
   padding-left: 4px;
   margin-right: 4px;
-  color: #666;
   white-space: nowrap;
+}
+.kb-object__category a {
+  color: #666;
 }
 .kb-object__category--cars {
   border-left-color: #bad6ed;
@@ -5272,14 +5274,21 @@ strong {
   margin-top: 8px;
 }
 .kb-object__heading {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+}
+.kb-object__heading a {
+  color: #333;
 }
 .kb-object__excerpt {
   margin-bottom: 4px;
+  color: #333;
+}
+.kb-object__excerpt a {
+  color: #333;
 }
 .kb-object__price {
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 6px;
   font-size: 24px;
   font-weight: 700;
 }
@@ -5351,11 +5360,8 @@ strong {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .kb-object__text {
-    margin-top: 20px;
-  }
   .kb-object__excerpt {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 }
 

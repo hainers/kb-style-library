@@ -36,8 +36,11 @@
     border-left: 4px solid;
     padding-left: 4px;
     margin-right: 4px;
-    color: #666;
     white-space: nowrap;
+
+    a {
+      color: #666;
+    }
 
     &--cars {
       border-left-color: #bad6ed;
@@ -84,16 +87,26 @@
   }
 
   &__heading {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
+
+    a {
+      color: #333;
+    }
+
   }
 
   &__excerpt {
     margin-bottom: 4px;
+    color: #333;
+
+    a {
+      color: #333;
+    }
   }
 
   &__price {
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 6px;
     font-size: 24px;
     font-weight: 700;
   }
@@ -182,12 +195,9 @@
   }
 
   @media only screen and (min-width: 1200px) {
-    &__text {
-      margin-top: 20px;
-    }
 
     &__excerpt {
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
   }
 }
