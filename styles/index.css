@@ -5097,7 +5097,7 @@ strong {
   font-size: 12px;
   cursor: pointer;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   .category-sidebar {
     position: fixed;
     top: 0;
@@ -5106,6 +5106,7 @@ strong {
     bottom: 0;
     overflow-y: auto;
     transition: left 0.3s ease-in-out;
+    z-index: 10;
   }
   .category-sidebar--open {
     left: 0;
@@ -5199,6 +5200,143 @@ strong {
 }
 .login-options__item img {
   width: 100%;
+}
+
+.kb-object {
+  margin: 8px 0 12px;
+  padding: 12px 0 8px;
+  border-radius: 4px;
+  border-bottom: 1px solid #ddd;
+}
+.kb-object__image {
+  padding: 0;
+}
+.kb-object__image img {
+  border-radius: 4px;
+}
+.kb-object__content-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 11px;
+}
+.kb-object__meta {
+  flex: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kb-object__category {
+  border-left: 4px solid;
+  padding-left: 4px;
+  margin-right: 4px;
+  color: #666;
+  white-space: nowrap;
+}
+.kb-object__category--cars {
+  border-left-color: #bad6ed;
+}
+.kb-object__category--agriculture {
+  border-left-color: #89db09;
+}
+.kb-object__category--pets {
+  border-left-color: #FF0080;
+}
+.kb-object__category--real-estate {
+  border-left-color: #feb672;
+}
+.kb-object__category--work {
+  border-left-color: #feb672;
+}
+.kb-object__category--business {
+  border-left-color: #e80f0e;
+}
+.kb-object__category--varia {
+  border-left-color: #ffec00;
+}
+.kb-object__date {
+  color: #666;
+  white-space: nowrap;
+}
+.kb-object__location {
+  color: #666;
+  font-size: 13px;
+}
+.kb-object__text {
+  position: relative;
+  margin-top: 8px;
+}
+.kb-object__heading {
+  margin-bottom: 4px;
+}
+.kb-object__excerpt {
+  margin-bottom: 4px;
+}
+.kb-object__price {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.kb-object__star {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+.kb-object__star .icon {
+  color: #E2E2E2;
+}
+.kb-object__star:hover .icon:before, .kb-object__star--filled .icon:before {
+  content: "";
+  color: #FFF200;
+}
+@media only screen and (max-width: 360px) {
+  .kb-object__meta {
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+  .kb-object__date {
+    margin-top: 2px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .kb-object__content {
+    padding: 0 8px;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .kb-object {
+    margin: 12px 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  .kb-object__content-head {
+    flex-wrap: nowrap;
+    font-size: 14px;
+  }
+  .kb-object__meta {
+    flex: 1;
+    justify-content: flex-start;
+  }
+  .kb-object__category {
+    margin-right: 12px;
+  }
+  .kb-object__text {
+    margin-top: 16px;
+  }
+  .kb-object__location {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .kb-object__text {
+    margin-top: 20px;
+  }
+  .kb-object__excerpt {
+    margin-bottom: 16px;
+  }
 }
 
 body {

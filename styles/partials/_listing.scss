@@ -1,0 +1,170 @@
+.kb-object {
+  margin: 8px 0 12px;
+  padding: 12px 0 8px;
+  border-radius: 4px;
+  border-bottom: 1px solid #ddd;
+
+  &__image {
+    padding: 0;
+
+    img {
+      border-radius: 4px;
+    }
+  }
+
+  &__content-head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 11px;
+  }
+
+  &__meta {
+    flex: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__category {
+    border-left: 4px solid;
+    padding-left: 4px;
+    margin-right: 4px;
+    color: #666;
+    white-space: nowrap;
+
+    &--cars {
+      border-left-color: #bad6ed;
+    }
+
+    &--agriculture {
+      border-left-color: #89db09;
+    }
+
+    &--pets {
+      border-left-color: #FF0080;
+    }
+
+    &--real-estate {
+      border-left-color: #feb672;
+    }
+
+    &--work {
+      border-left-color: #feb672;
+    }
+
+    &--business {
+      border-left-color: #e80f0e;
+    }
+
+    &--varia {
+      border-left-color: #ffec00;
+    }
+  }
+
+  &__date {
+    color: #666;
+    white-space: nowrap;
+  }
+
+  &__location {
+    color: #666;
+    font-size: 13px;
+  }
+
+  &__text {
+    position: relative;
+    margin-top: 8px;
+  }
+
+  &__heading {
+    margin-bottom: 4px;
+  }
+
+  &__excerpt {
+    margin-bottom: 4px;
+  }
+
+  &__price {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__star {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+
+    .icon {
+      color: #E2E2E2;
+    }
+
+    &:hover,
+    &--filled {
+
+      .icon:before {
+        content: "\e903";
+        color: #FFF200;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    &__meta {
+      flex-wrap: wrap;
+      font-size: 12px;
+    }
+
+    &__date {
+      margin-top: 2px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    &__content {
+      padding: 0 8px;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    margin: 12px 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+
+    &__content-head {
+      flex-wrap: nowrap;
+      font-size: 14px;
+    }
+
+    &__meta {
+      flex: 1;
+      justify-content: flex-start;
+    }
+
+    &__category {
+      margin-right: 12px;
+    }
+
+    &__text {
+      margin-top: 16px;
+    }
+
+    &__location {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__text {
+      margin-top: 20px;
+    }
+
+    &__excerpt {
+      margin-bottom: 16px;
+    }
+  }
+}
