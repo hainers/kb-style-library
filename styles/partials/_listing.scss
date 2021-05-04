@@ -201,3 +201,23 @@
     }
   }
 }
+
+.kb-sorting {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .kb-field {
+    flex: 0 0 200px;
+  }
+
+  &__text {
+    margin-right: 8px;
+    font-weight: 500;
+  }
+}
+
+.kb-listing-category {
+  line-height: 40px;
+  margin: 0;
+}

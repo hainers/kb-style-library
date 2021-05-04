@@ -25,6 +25,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-kb-clipboard:before {
+  content: "\e918";
+  color: #666;
+}
+.icon-kb-print:before {
+  content: "\e919";
+}
 .icon-kb-close:before {
   content: "\e917";
 }

@@ -1,0 +1,69 @@
+.kb-object-view {
+
+  &__heading {
+    margin-bottom: 8px;
+  }
+
+  &__meta-data {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    span {
+      margin-right: 8px;
+    }
+  }
+
+  &__price-wrap {
+    margin: 24px 0;
+  }
+
+  &__price {
+    margin-right: 4px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__price-text {
+  }
+
+  &__text {
+
+  }
+
+  &__owner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__owner-image {
+    display: block;
+    max-width: 140px;
+  }
+
+  &__owner-info {
+    margin-bottom: 12px;
+  }
+
+  &__actions {
+
+  }
+
+  &__star {
+    cursor: pointer;
+
+    .icon {
+      font-size: 24px;
+      color: #E2E2E2;
+    }
+
+    &:hover,
+    &--filled {
+
+      .icon:before {
+        content: "\e903";
+        color: #FFF200;
+      }
+    }
+  }
+}

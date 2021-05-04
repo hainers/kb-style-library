@@ -82,10 +82,10 @@
         <form class="col-12 col-md-10 kb-search-form">
             <div class="row">
                 <div class="col-12 kb-search-form__visible-fields">
-                    <div class="kb-field kb-field--input kb-field--large kb-search-form__search-field">
+                    <div class="kb-field kb-field--input kb-search-form__search-field">
                         <input type="text" class="kb-field__input" placeholder="Sisesta midagi otsimiseks...">
                     </div>
-                    <div class="kb-field kb-field--select kb-field--large kb-field--without-label kb-search-form__category-field">
+                    <div class="kb-field kb-field--select kb-field--without-label kb-search-form__category-field">
                         <select name="" id="" class="kb-field__select">
                             <option value="" selected>Vali rubriik</option>
                             <option value="">Option2</option>
@@ -103,18 +103,21 @@
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label">Hind alates</label>
                                         <input type="text" class="kb-field__input" placeholder="Hind alates">
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label">Hind kuni</label>
                                         <input type="text" class="kb-field__input" placeholder="Hind kuni">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Tehingu tüüp</label>
                                         <select name="" id="" class="kb-field__select">
                                             <option value="">Tehingu tüüp</option>
                                             <option value="">Option2</option>
@@ -123,7 +126,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Seisukord</label>
                                         <select name="" id="" class="kb-field__select">
                                             <option value="">Seisukord</option>
                                             <option value="">Option2</option>
@@ -149,11 +153,13 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <div class="kb-field kb-field--input mt-3">
+                                <label for="" class="kb-field__label">Asukoht</label>
                                 <input type="text" class="kb-field__input" placeholder="Asukoha täpsustus">
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Tehingu tüüp</label>
                                         <select name="" id="" class="kb-field__select">
                                             <option value="">Tehingu tüüp</option>
                                             <option value="">Option2</option>
@@ -162,7 +168,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Seisukord</label>
                                         <select name="" id="" class="kb-field__select">
                                             <option value="">Seisukord</option>
                                             <option value="">Option2</option>
@@ -173,7 +180,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
+                                    <div class="kb-field kb-field--select mt-3">
+                                        <label for="" class="kb-field__label">Kuulutuse vanus</label>
                                         <select name="" id="" class="kb-field__select">
                                             <option value="">Vali kuulutuse vanus</option>
                                             <option value="">Option2</option>
@@ -357,171 +365,57 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-9 col-xl-10 kb-object-listing">
+        <div class="col-12 col-lg-9 col-xl-10 kb-object-view">
             <div class="row">
-                <h4 class="col-12 col-md-6 col-lg-8 kb-listing-category">Sõidukid ja sõiduvahendid</h4>
-                <div class="col-12 col-md-6  col-lg-4 kb-sorting">
-                    <span class="kb-sorting__text">Järjesta</span>
-                    <div class="kb-field kb-field--select kb-field--without-label">
-                        <select name="" id="" class="kb-field__select">
-                            <option value="">Vanemad ees</option>
-                            <option value="">Uuemad ees</option>
-                            <option value="">Hind: kasvav</option>
-                            <option value="">Hind: kahanev</option>
-                        </select>
+                <div class="col-12 col-md-5 col-lg-6 kb-object-view__image-column">
+                    <img src="images/listing-bg.jpeg" alt="">
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 kb-object-view__content-column">
+                    <h1 class="kb-object-view__heading">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</h1>
+                    <div class="kb-object-view__meta-data">
+                        <span>ID: 1234332</span>
+                        <span>muudetud 20:10 22.03.2021</span>
+                        <div class="kb-object-view__star"><span class="icon icon-kb-star"></span></div>
+                    </div>
+                    <p class="kb-object-view__price-wrap">
+                        <span class="kb-object-view__price">1 500€</span>
+                        <span class="kb-object-view__price-text">km 0% (eraisik või mitte käibemaksukohuslane)</span>
+                    </p>
+                    <div class="kb-object-view__text">
+                        <p>Nõukaaegsed kõrvaklapid EXO TDC-101 aastast 1980  ning retro mikrofon OKTAVA MD-47 aastast 1970.Töökorda ei tea. Müüa kaks asja koos. Hinnaks 15 EURi kahe asja eest.
+                            Nõukaaegsed kõrvaklapid EXO TDC-101 aastast 1980  ning retro mikrofon OKTAVA MD-47 aastast 1970.Töökorda ei tea. Müüa kaks asja koos. Hinnaks 15 EURi kahe asja eest.
+                            Ainult tel.kõned</p>
+                        <p>Nõukaaegsed kõrvaklapid EXO TDC-101 aastast 1980  ning retro mikrofon OKTAVA MD-47 aastast 1970.Töökorda ei tea. Müüa kaks asja koos. Hinnaks 15 EURi kahe asja eest.
+                            Nõukaaegsed kõrvaklapid EXO TDC-101 aastast 1980  ning retro mikrofon OKTAVA MD-47 aastast 1970.Töökorda ei tea. Müüa kaks asja koos. Hinnaks 15 EURi kahe asja eest.
+                            Ainult tel.kõned</p>
+                    </div>
+                    <div class="kb-object-view__owner">
+                        <h4 class="uppercase">Kuulutaja</h4>
+                        <span class="kb-object-view__owner-info">Asukoht: Tartumaa, Kambja vald, Tõrvandi alevik, Tamme 19 <span class="icon icon-kb-pin"></span> (näita kaardil)</span>
+                        <span class="kb-object-view__owner-info"><strong>Savo-Auto AS</strong></span>
+                        <img src="https://images.kuldnebors.ee/dynamic/limg/c/0/c023a5db63c65b7fb63cf5347983115b.jpg" alt="" class="kb-object-view__owner-image">
+                        <span class="kb-object-view__owner-info"><a href="mailto:savo@savoauto.ee">savo@savoauto.ee</a></span>
+                        <span class="kb-object-view__owner-info"><a href="www.savoauto.ee" target="_blank">www.savoauto.ee</a></span>
+                        <span class="kb-object-view__owner-info">Goodsense tõstukite ametlik esindaja Eestis.</span>
+                    </div>
+                    <div class="kb-object-view__actions">
+                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2">Saada müüjale sõnum</a>
+                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2">Kuva telefoninumber</a>
                     </div>
                 </div>
             </div>
-            <div class="row kb-object">
-                <div class="col-4 col-md-4 col-lg-4 col-xl-3 kb-object__image">
-                    <a href="#">
-                        <img src="images/listing-bg.jpeg" alt="">
-                    </a>
-                    <div class="kb-object__gallery-toggle"><span class="icon icon-kb-gallery"></span>9</div>
-                </div>
-                <div class="col-8 col-md-8 col-lg-8 col-xl-9 kb-object__content">
-                    <div class="kb-object__content-head">
-                        <div class="kb-object__meta">
-                            <div class="kb-object__category kb-object__category--real-estate"><a href="#">Aed ja õu, müük</a></div>
-                            <div class="kb-object__date">Sisestatud: 22.03.2021</div>
-                        </div>
-                        <div class="kb-object__location d-none d-md-block"><span class="icon icon-kb-pin"></span>Haapsalu</div>
+            <div class="row">
+                <div class="col-12 kb-object-footer">
+                    <div class="kb-object-footer__item"><span class="icon icon-kb-star-empty"></span>Lisa lemmikutesse</div>
+                    <div class="kb-object-footer__item"><span class="icon icon-kb-print"></span>Prindi kuulutus</div>
+                    <div class="kb-object-footer__item"><span class="icon icon-kb-warning"></span>Teata sobimatust kuulutusest</div>
+                    <div class="kb-field kb-field--input kb-object-footer__link">
+                        <label for="" class="kb-field__label">Jaga kuulutust</label>
+                        <input type="text" class="kb-field__input" placeholder="http://kuldnebors.ee/12342131" value="http://kuldnebors.ee/12342131">
+                        <span class="icon icon-kb-clipboard"></span>
                     </div>
-                    <div class="kb-object__text">
-                        <h4 class="kb-object__heading"><a href="#">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</a></h4>
-                        <p class="kb-object__excerpt d-none d-md-block"><a href="#">uus; Rotatsioonivalu meetodil on PE-plastikust (polüetüleenplastikust) valmistatud kümblustünni sisu ja kaas, sisse valatud istumisalus on soojustatud 40cm paksuse vahtpolüstürooliga, sisse valatud istumisalus on soojustatud 40cm paksuse...</a></p>
-                        <div class="kb-object__location d-md-none"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                        <span class="kb-object__price">1 500€</span>
-                    </div>
-                    <div class="kb-object__star kb-object__star--filled"><span class="icon icon-kb-star"></span></div>
                 </div>
             </div>
-
-            <div class="row kb-object">
-                <div class="col-4 col-md-4 col-lg-4 col-xl-3 kb-object__image">
-                    <a href="#">
-                        <img src="images/listing-bg.jpeg" alt="">
-                    </a>
-                    <div class="kb-object__gallery-toggle"><span class="icon icon-kb-gallery"></span>9</div>
-                </div>
-                <div class="col-8 col-md-8 col-lg-8 col-xl-9 kb-object__content">
-                    <div class="kb-object__content-head">
-                        <div class="kb-object__meta">
-                            <div class="kb-object__category kb-object__category--real-estate"><a href="#">Aed ja õu, müük</a></div>
-                            <div class="kb-object__date">Sisestatud: 22.03.2021</div>
-                        </div>
-                        <div class="kb-object__location d-none d-md-block"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                    </div>
-                    <div class="kb-object__text">
-                        <h4 class="kb-object__heading"><a href="#">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</a></h4>
-                        <p class="kb-object__excerpt d-none d-md-block"><a href="#">uus; Rotatsioonivalu meetodil on PE-plastikust (polüetüleenplastikust) valmistatud kümblustünni sisu ja kaas, sisse valatud istumisalus on soojustatud 40cm paksuse vahtpolüstürooliga, sisse valatud istumisalus on soojustatud 40cm paksuse...</a></p>
-                        <div class="kb-object__location d-md-none"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                        <span class="kb-object__price">1 500€</span>
-                    </div>
-                    <div class="kb-object__star"><span class="icon icon-kb-star"></span></div>
-                </div>
-            </div>
-
-            <div class="row kb-object">
-                <div class="col-4 col-md-4 col-lg-4 col-xl-3 kb-object__image">
-                    <a href="#">
-                        <img src="images/listing-bg.jpeg" alt="">
-                    </a>
-                    <div class="kb-object__gallery-toggle"><span class="icon icon-kb-gallery"></span>9</div>
-                </div>
-                <div class="col-8 col-md-8 col-lg-8 col-xl-9 kb-object__content">
-                    <div class="kb-object__content-head">
-                        <div class="kb-object__meta">
-                            <div class="kb-object__category kb-object__category--real-estate"><a href="#">Aed ja õu, müük</a></div>
-                            <div class="kb-object__date">Sisestatud: 22.03.2021</div>
-                        </div>
-                        <div class="kb-object__location d-none d-md-block"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                    </div>
-                    <div class="kb-object__text">
-                        <h4 class="kb-object__heading"><a href="#">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</a></h4>
-                        <p class="kb-object__excerpt d-none d-md-block"><a href="#">uus; Rotatsioonivalu meetodil on PE-plastikust (polüetüleenplastikust) valmistatud kümblustünni sisu ja kaas, sisse valatud istumisalus on soojustatud 40cm paksuse vahtpolüstürooliga, sisse valatud istumisalus on soojustatud 40cm paksuse...</a></p>
-                        <div class="kb-object__location d-md-none"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                        <span class="kb-object__price">1 500€</span>
-                    </div>
-                    <div class="kb-object__star"><span class="icon icon-kb-star"></span></div>
-                </div>
-            </div>
-
-            <div class="row kb-object">
-                <div class="col-4 col-md-4 col-lg-4 col-xl-3 kb-object__image">
-                    <a href="#">
-                        <img src="images/listing-bg.jpeg" alt="">
-                    </a>
-                    <div class="kb-object__gallery-toggle"><span class="icon icon-kb-gallery"></span>9</div>
-                </div>
-                <div class="col-8 col-md-8 col-lg-8 col-xl-9 kb-object__content">
-                    <div class="kb-object__content-head">
-                        <div class="kb-object__meta">
-                            <div class="kb-object__category kb-object__category--real-estate"><a href="#">Aed ja õu, müük</a></div>
-                            <div class="kb-object__date">Sisestatud: 22.03.2021</div>
-                        </div>
-                        <div class="kb-object__location d-none d-md-block"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                    </div>
-                    <div class="kb-object__text">
-                        <h4 class="kb-object__heading"><a href="#">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</a></h4>
-                        <p class="kb-object__excerpt d-none d-md-block"><a href="#">uus; Rotatsioonivalu meetodil on PE-plastikust (polüetüleenplastikust) valmistatud kümblustünni sisu ja kaas, sisse valatud istumisalus on soojustatud 40cm paksuse vahtpolüstürooliga, sisse valatud istumisalus on soojustatud 40cm paksuse...</a></p>
-                        <div class="kb-object__location d-md-none"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                        <span class="kb-object__price">1 500€</span>
-                    </div>
-                    <div class="kb-object__star kb-object__star--filled"><span class="icon icon-kb-star"></span></div>
-                </div>
-            </div>
-
-            <div class="row kb-object">
-                <div class="col-4 col-md-4 col-lg-4 col-xl-3 kb-object__image">
-                    <a href="#">
-                        <img src="images/listing-bg.jpeg" alt="">
-                    </a>
-                    <div class="kb-object__gallery-toggle"><span class="icon icon-kb-gallery"></span>9</div>
-                </div>
-                <div class="col-8 col-md-8 col-lg-8 col-xl-9 kb-object__content">
-                    <div class="kb-object__content-head">
-                        <div class="kb-object__meta">
-                            <div class="kb-object__category kb-object__category--real-estate"><a href="#">Aed ja õu, müük</a></div>
-                            <div class="kb-object__date">Sisestatud: 22.03.2021</div>
-                        </div>
-                        <div class="kb-object__location d-none d-md-block"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                    </div>
-                    <div class="kb-object__text">
-                        <h4 class="kb-object__heading"><a href="#">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</a></h4>
-                        <p class="kb-object__excerpt d-none d-md-block"><a href="#">uus; Rotatsioonivalu meetodil on PE-plastikust (polüetüleenplastikust) valmistatud kümblustünni sisu ja kaas, sisse valatud istumisalus on soojustatud 40cm paksuse vahtpolüstürooliga, sisse valatud istumisalus on soojustatud 40cm paksuse...</a></p>
-                        <div class="kb-object__location d-md-none"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                        <span class="kb-object__price">1 500€</span>
-                    </div>
-                    <div class="kb-object__star"><span class="icon icon-kb-star"></span></div>
-                </div>
-            </div>
-
-            <div class="row kb-object">
-                <div class="col-4 col-md-4 col-lg-4 col-xl-3 kb-object__image">
-                    <a href="#">
-                        <img src="images/listing-bg.jpeg" alt="">
-                    </a>
-                    <div class="kb-object__gallery-toggle"><span class="icon icon-kb-gallery"></span>9</div>
-                </div>
-                <div class="col-8 col-md-8 col-lg-8 col-xl-9 kb-object__content">
-                    <div class="kb-object__content-head">
-                        <div class="kb-object__meta">
-                            <div class="kb-object__category kb-object__category--real-estate"><a href="#">Aed ja õu, müük</a></div>
-                            <div class="kb-object__date">Sisestatud: 22.03.2021</div>
-                        </div>
-                        <div class="kb-object__location d-none d-md-block"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                    </div>
-                    <div class="kb-object__text">
-                        <h4 class="kb-object__heading"><a href="#">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</a></h4>
-                        <p class="kb-object__excerpt d-none d-md-block"><a href="#">uus; Rotatsioonivalu meetodil on PE-plastikust (polüetüleenplastikust) valmistatud kümblustünni sisu ja kaas, sisse valatud istumisalus on soojustatud 40cm paksuse vahtpolüstürooliga, sisse valatud istumisalus on soojustatud 40cm paksuse...</a></p>
-                        <div class="kb-object__location d-md-none"><span class="icon icon-kb-pin"></span>Haapsalu</div>
-                        <span class="kb-object__price">1 500€</span>
-                    </div>
-                    <div class="kb-object__star"><span class="icon icon-kb-star"></span></div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>

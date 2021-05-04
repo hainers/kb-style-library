@@ -4237,6 +4237,15 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-kb-clipboard:before {
+  content: "";
+  color: #666;
+}
+
+.icon-kb-print:before {
+  content: "";
+}
+
 .icon-kb-close:before {
   content: "";
 }
@@ -4313,6 +4322,7 @@ h1 {
   margin-bottom: 24px;
   font-size: 28px;
   font-weight: 500;
+  line-height: 1.25;
 }
 
 h2 {
@@ -4490,7 +4500,7 @@ strong {
 .kb-field--input .kb-field__input, .kb-field--input .kb-field__select, .kb-field--select .kb-field__input, .kb-field--select .kb-field__select {
   display: block;
   width: 100%;
-  padding: 11px 12px;
+  padding: 8px 12px;
   border: 1px solid #ddd;
   outline: none;
 }
@@ -4511,6 +4521,10 @@ strong {
   right: 12px;
   top: 37px;
   font-size: 12px;
+}
+.kb-field--large .kb-field__input,
+.kb-field--large .kb-field__select {
+  padding: 11px 12px;
 }
 .kb-field--checkbox input {
   padding: 0;
@@ -4633,6 +4647,9 @@ strong {
   display: none;
 }
 .kb-field--without-label:before {
+  top: 12px;
+}
+.kb-field--without-label.kb-field--large:before {
   top: 15px;
 }
 
@@ -5363,6 +5380,66 @@ strong {
   .kb-object__excerpt {
     margin-bottom: 12px;
   }
+}
+
+.kb-sorting {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.kb-sorting .kb-field {
+  flex: 0 0 200px;
+}
+.kb-sorting__text {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.kb-listing-category {
+  line-height: 40px;
+  margin: 0;
+}
+
+.kb-object-view__heading {
+  margin-bottom: 8px;
+}
+.kb-object-view__meta-data {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.kb-object-view__meta-data span {
+  margin-right: 8px;
+}
+.kb-object-view__price-wrap {
+  margin: 24px 0;
+}
+.kb-object-view__price {
+  margin-right: 4px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.kb-object-view__owner {
+  display: flex;
+  flex-direction: column;
+}
+.kb-object-view__owner-image {
+  display: block;
+  max-width: 140px;
+}
+.kb-object-view__owner-info {
+  margin-bottom: 12px;
+}
+.kb-object-view__star {
+  cursor: pointer;
+}
+.kb-object-view__star .icon {
+  font-size: 24px;
+  color: #E2E2E2;
+}
+.kb-object-view__star:hover .icon:before, .kb-object-view__star--filled .icon:before {
+  content: "";
+  color: #FFF200;
 }
 
 body {

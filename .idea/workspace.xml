@@ -11,21 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d4e0f6-c7f5-4aa8-9b2c-24b1537c9b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/modal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/partials/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/partials/_objectview.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgotPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotPassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontPageLoggedIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontPageLoggedIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts/icomoon.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/partials/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/partials/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/partials/_listing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_listing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/partials/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,10 +94,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1617803253293" />
-    <state x="597" y="315" width="597" height="576" key="find.popup" timestamp="1618486799484">
+    <state x="597" y="315" width="597" height="576" key="find.popup" timestamp="1620028878575">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="597" y="315" width="597" height="576" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1618486799484" />
+    <state x="597" y="315" width="597" height="576" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1620028878575" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1618570894208">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
