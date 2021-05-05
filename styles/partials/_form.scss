@@ -312,5 +312,11 @@
         top: 15px;
       }
     }
+    &.kb-field--small {
+      &:before {
+        top: 8px;
+        right: 8px;
+      }
+    }
   }
 }

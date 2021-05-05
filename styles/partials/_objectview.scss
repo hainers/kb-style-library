@@ -38,6 +38,7 @@
 
   &__owner-image {
     display: block;
+    margin-bottom: 8px;
     max-width: 140px;
   }
 
@@ -65,5 +66,82 @@
         color: #FFF200;
       }
     }
+  }
+}
+
+.kb-object-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+  margin-top: 24px;
+  border-radius: 4px;
+  background-color: #EDF2F4;
+  &__item {
+    flex: 0 0 100%;
+    padding: 12px 0;
+    color: #333;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    .icon {
+      margin-right: 6px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+
+    .kb-field__label {
+      margin-bottom: 0;
+      margin-right: 8px;
+      white-space: nowrap;
+    }
+
+    .icon-kb-clipboard {
+      margin-left: 4px;
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    margin: 24px 16px;
+
+    &__item {
+      flex: auto;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+
+    &__link {
+      flex: 1 0 250px;
+    }
+  }
+}
+
+.kb-finance {
+  display: flex;
+  align-items: center;
+  background: rgba(237, 242, 244, 0.5);
+
+  &__logo {
+    max-width: 70px;
+  }
+  &__middle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__text {
+    flex: 0 0 100%;
+  }
+  &__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

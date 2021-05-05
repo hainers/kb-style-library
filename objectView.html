@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12 offset-md-3 offset-lg-2">
+        <div class="col-12 col-md-9 col-lg-10 offset-md-3 offset-lg-2">
             <div class="kb-search-form-tabs">
                 <div class="kb-search-form-tabs__item kb-search-form-tabs__item--active js-kb-search-form__toggle-collapse">Otsing</div>
                 <div class="kb-search-form-tabs__item kb-search-form-tabs__item--detailed js-kb-search-form__toggle-mobile">Täpsem otsing</div>
@@ -82,10 +82,10 @@
         <form class="col-12 col-md-10 kb-search-form">
             <div class="row">
                 <div class="col-12 kb-search-form__visible-fields">
-                    <div class="kb-field kb-field--input kb-search-form__search-field">
+                    <div class="kb-field kb-field--input kb-field--large kb-search-form__search-field">
                         <input type="text" class="kb-field__input" placeholder="Sisesta midagi otsimiseks...">
                     </div>
-                    <div class="kb-field kb-field--select kb-field--without-label kb-search-form__category-field">
+                    <div class="kb-field kb-field--select kb-field--large  kb-field--without-label kb-search-form__category-field">
                         <select name="" id="" class="kb-field__select">
                             <option value="" selected>Vali rubriik</option>
                             <option value="">Option2</option>
@@ -368,7 +368,35 @@
         <div class="col-12 col-lg-9 col-xl-10 kb-object-view">
             <div class="row">
                 <div class="col-12 col-md-5 col-lg-6 kb-object-view__image-column">
-                    <img src="images/listing-bg.jpeg" alt="">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="images/listing-bg.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mt-4">
+                            <h4 class="uppercase">Finantseerimine</h4>
+                            <div class="kb-finance">
+                                <img src="images/inbank.png" class="kb-finance__logo">
+                                <div class="kb-finance__middle">
+                                    <span class="kb-finance__price">11€/<span>kuu</span></span>
+                                    <div class="kb-field kb-field--select kb-field--without-label kb-field--small kb-finance__select">
+                                        <select name="" id="" class="kb-field__select">
+                                            <option value="">Option1</option>
+                                            <option value="">Option2</option>
+                                            <option value="">Option3</option>
+                                        </select>
+                                    </div>
+                                    <span class="kb-finance__text">Sissemakse 0€</span>
+                                </div>
+                                <div class="kb-finance__action">
+                                    <a href="#" class="kb-btn kb-btn--secondary kb-btn--small mr-2">Tutvu pakkumisega</a>
+                                    <span>Vastus 1 minutiga</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-12 col-md-7 col-lg-6 kb-object-view__content-column">
                     <h1 class="kb-object-view__heading">KÜMBLUSTÜNN KAANEGA 6-LE INIMESELE VÄLISE AHJUGA! 1450L VETT</h1>
@@ -399,20 +427,20 @@
                         <span class="kb-object-view__owner-info">Goodsense tõstukite ametlik esindaja Eestis.</span>
                     </div>
                     <div class="kb-object-view__actions">
-                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2">Saada müüjale sõnum</a>
-                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2">Kuva telefoninumber</a>
+                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2 mb-2">Saada müüjale sõnum</a>
+                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2 mb-2">Kuva telefoninumber</a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 kb-object-footer">
-                    <div class="kb-object-footer__item"><span class="icon icon-kb-star-empty"></span>Lisa lemmikutesse</div>
-                    <div class="kb-object-footer__item"><span class="icon icon-kb-print"></span>Prindi kuulutus</div>
-                    <div class="kb-object-footer__item"><span class="icon icon-kb-warning"></span>Teata sobimatust kuulutusest</div>
+                    <a href="#" class="kb-object-footer__item"><span class="icon icon-kb-star-empty"></span>Lisa lemmikutesse</a>
+                    <a href="#" class="kb-object-footer__item"><span class="icon icon-kb-print"></span>Prindi kuulutus</a>
+                    <a href="#" class="kb-object-footer__item"><span class="icon icon-kb-warning"></span>Teata sobimatust kuulutusest</a>
                     <div class="kb-field kb-field--input kb-object-footer__link">
                         <label for="" class="kb-field__label">Jaga kuulutust</label>
-                        <input type="text" class="kb-field__input" placeholder="http://kuldnebors.ee/12342131" value="http://kuldnebors.ee/12342131">
-                        <span class="icon icon-kb-clipboard"></span>
+                        <input type="text" class="kb-field__input" onClick="this.select();" placeholder="http://kuldnebors.ee/12342131" value="http://kuldnebors.ee/12342131" id="objectLink">
+                        <span class="icon icon-kb-clipboard" onclick="myFunction()"></span>
                     </div>
                 </div>
             </div>
@@ -428,7 +456,20 @@
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/modal.min.js"></script>
 <script src="scripts/index.js"></script>
+<script>
+    function myFunction() {
+        /* Get the text field */
+        var copyText = document.getElementById("objectLink");
 
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+
+    }
+</script>
 </body>
 
 </html>

@@ -4652,6 +4652,10 @@ strong {
 .kb-field--without-label.kb-field--large:before {
   top: 15px;
 }
+.kb-field--without-label.kb-field--small:before {
+  top: 8px;
+  right: 8px;
+}
 
 .modal__overlay {
   position: fixed;
@@ -5425,6 +5429,7 @@ strong {
 }
 .kb-object-view__owner-image {
   display: block;
+  margin-bottom: 8px;
   max-width: 140px;
 }
 .kb-object-view__owner-info {
@@ -5440,6 +5445,74 @@ strong {
 .kb-object-view__star:hover .icon:before, .kb-object-view__star--filled .icon:before {
   content: "";
   color: #FFF200;
+}
+
+.kb-object-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+  margin-top: 24px;
+  border-radius: 4px;
+  background-color: #EDF2F4;
+}
+.kb-object-footer__item {
+  flex: 0 0 100%;
+  padding: 12px 0;
+  color: #333;
+}
+.kb-object-footer__item:hover {
+  text-decoration: none;
+}
+.kb-object-footer__item .icon {
+  margin-right: 6px;
+}
+.kb-object-footer__link {
+  display: flex;
+  align-items: center;
+}
+.kb-object-footer__link .kb-field__label {
+  margin-bottom: 0;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+.kb-object-footer__link .icon-kb-clipboard {
+  margin-left: 4px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 767px) {
+  .kb-object-footer {
+    margin: 24px 16px;
+  }
+  .kb-object-footer__item {
+    flex: auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .kb-object-footer__link {
+    flex: 1 0 250px;
+  }
+}
+
+.kb-finance {
+  display: flex;
+  align-items: center;
+  background: rgba(237, 242, 244, 0.5);
+}
+.kb-finance__logo {
+  max-width: 70px;
+}
+.kb-finance__middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kb-finance__text {
+  flex: 0 0 100%;
+}
+.kb-finance__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
