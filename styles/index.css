@@ -4522,9 +4522,20 @@ strong {
   top: 37px;
   font-size: 12px;
 }
+.kb-field--textarea textarea {
+  min-height: 120px;
+}
 .kb-field--large .kb-field__input,
 .kb-field--large .kb-field__select {
   padding: 11px 12px;
+}
+.kb-field--error select,
+.kb-field--error input,
+.kb-field--error textarea {
+  border-color: #A10000 !important;
+}
+.kb-field--error label {
+  color: #A10000 !important;
 }
 .kb-field--checkbox input {
   padding: 0;
@@ -4671,7 +4682,7 @@ strong {
 
 .modal__container {
   background-color: #fff;
-  padding: 30px;
+  padding: 24px;
   width: calc(100% - 24px);
   max-width: 360px;
   margin: 0 auto;
@@ -5414,6 +5425,7 @@ strong {
 }
 .kb-object-view__meta-data span {
   margin-right: 8px;
+  color: #666;
 }
 .kb-object-view__price-wrap {
   margin: 24px 0;
@@ -5497,22 +5509,46 @@ strong {
 .kb-finance {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
   background: rgba(237, 242, 244, 0.5);
 }
 .kb-finance__logo {
-  max-width: 70px;
+  max-width: 50px;
+  margin-right: 4px;
 }
 .kb-finance__middle {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+.kb-finance__price-wrap {
+  margin-right: 8px;
+}
+.kb-finance__price {
+  font-size: 18px;
+  font-weight: 500;
+}
+.kb-finance .kb-field--select {
+  min-width: 100px;
 }
 .kb-finance__text {
   flex: 0 0 100%;
+  margin-top: 4px;
+  text-align: center;
 }
 .kb-finance__action {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media only screen and (min-width: 767px) {
+  .kb-finance__logo {
+    max-width: 70px;
+    margin-right: 12px;
+  }
 }
 
 body {

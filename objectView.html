@@ -374,24 +374,24 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 mt-4">
+                        <div class="col-12 my-4">
                             <h4 class="uppercase">Finantseerimine</h4>
                             <div class="kb-finance">
                                 <img src="images/inbank.png" class="kb-finance__logo">
                                 <div class="kb-finance__middle">
-                                    <span class="kb-finance__price">11€/<span>kuu</span></span>
+                                    <div class="kb-finance__price-wrap"><span class="kb-finance__price">11€/</span><span>kuu</span></div>
                                     <div class="kb-field kb-field--select kb-field--without-label kb-field--small kb-finance__select">
                                         <select name="" id="" class="kb-field__select">
-                                            <option value="">Option1</option>
-                                            <option value="">Option2</option>
-                                            <option value="">Option3</option>
+                                            <option value="">48 kuud</option>
+                                            <option value="">54 kuud</option>
+                                            <option value="">72 kuud</option>
                                         </select>
                                     </div>
                                     <span class="kb-finance__text">Sissemakse 0€</span>
                                 </div>
                                 <div class="kb-finance__action">
                                     <a href="#" class="kb-btn kb-btn--secondary kb-btn--small mr-2">Tutvu pakkumisega</a>
-                                    <span>Vastus 1 minutiga</span>
+                                    <span class="kb-finance__text">Vastus 1 minutiga</span>
                                 </div>
                             </div>
                         </div>
@@ -427,7 +427,7 @@
                         <span class="kb-object-view__owner-info">Goodsense tõstukite ametlik esindaja Eestis.</span>
                     </div>
                     <div class="kb-object-view__actions">
-                        <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2 mb-2">Saada müüjale sõnum</a>
+                        <a  href="javascript:;" class="kb-btn kb-btn--border kb-btn--border-red mr-2 mb-2" data-micromodal-trigger="objectContactForm">Saada müüjale sõnum</a>
                         <a href="#" class="kb-btn kb-btn--border kb-btn--border-red mr-2 mb-2">Kuva telefoninumber</a>
                     </div>
                 </div>
@@ -448,6 +448,45 @@
     </div>
 </div>
 
+
+<div class="modal modal--md micromodal-slide" id="objectContactForm" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="object-form-title">
+            <header class="modal__header">
+                <h2 class="modal__title" id="object-form-title">Saada kuulutajale sõnum</h2>
+                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="modal__content" id="smartid-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 kb-field kb-field--input mt-3">
+                            <label for="email" class="kb-field__label">Sinu e-mail</label>
+                            <input type="text" class="kb-field__input" id="email" placeholder="Sisesta email">
+                        </div>
+                        <div class="col-12 col-md-6 kb-field kb-field--input mt-3">
+                            <label for="title" class="kb-field__label">Pealkiri</label>
+                            <input type="text" class="kb-field__input" id="title" placeholder="Sisesta pealkiri">
+                        </div>
+                        <div class="col-12 kb-field kb-field--input kb-field--textarea mt-3">
+                            <label for="message" class="kb-field__label">Kirja sisu</label>
+                            <textarea type="text" class="kb-field__input" id="message" placeholder="Kirja sisu "></textarea>
+                        </div>
+                        <div class="col-12 col-md-6 kb-field kb-field--input mt-3">
+                            <label for="controlcode" class="kb-field__label">Kontrollkood</label>
+                            <input type="text" class="kb-field__input" id="controlcode" placeholder="Sisesta kontrollkood">
+                        </div>
+                        <div class="col-12 col-md-6 kb-field kb-field--input mt-3">
+                            Kontrollkoodi koht
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="modal__footer">
+                <a href="javascript:;" class="kb-btn kb-btn--primary kb-btn--full-width">Saada kiri</a>
+            </footer>
+        </div>
+    </div>
+</div>
 
 
 

@@ -147,10 +147,30 @@
     }
   }
 
+  &--textarea {
+
+    textarea {
+      min-height: 120px;
+    }
+  }
+
   &--large {
     .kb-field__input,
     .kb-field__select {
       padding: 11px 12px;
+    }
+  }
+
+  &--error {
+
+    select,
+    input,
+    textarea {
+      border-color: $red2!important;
+    }
+
+    label {
+      color: $red2!important;
     }
   }
 

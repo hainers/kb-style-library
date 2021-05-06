@@ -11,6 +11,7 @@
 
     span {
       margin-right: 8px;
+      color: #666;
     }
   }
 
@@ -126,22 +127,49 @@
 .kb-finance {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
   background: rgba(237, 242, 244, 0.5);
 
   &__logo {
-    max-width: 70px;
+    max-width: 50px;
+    margin-right: 4px;
   }
+
   &__middle {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+  }
+  &__price-wrap {
+    margin-right: 8px;
+  }
+  &__price {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .kb-field--select {
+    min-width: 100px;
   }
 
   &__text {
     flex: 0 0 100%;
+    margin-top: 4px;
+    text-align: center;
   }
   &__action {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  @media only screen and (min-width: 767px) {
+    &__logo {
+      max-width: 70px;
+      margin-right: 12px;
+    }
   }
 }
