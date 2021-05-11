@@ -59,10 +59,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-12 mt-3 mb-2 d-lg-none">
+        <div class="col-12 mt-2 mb-1 d-lg-none">
             <div class="sidebar-toggle js-sidebar-toggle">
                 <span class="icon icon-kb-list"></span>
-                <strong class="ml-2">Rubriigid</strong>
+                <strong class="ml-1">Rubriigid</strong>
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
                     <div class="kb-field kb-field--input kb-field--large kb-search-form__search-field">
                         <input type="text" class="kb-field__input" placeholder="Sisesta midagi otsimiseks...">
                     </div>
-                    <div class="kb-field kb-field--select kb-field--large kb-field--without-label kb-search-form__category-field">
+                    <div class="kb-field kb-field--select kb-field--large  kb-field--without-label kb-search-form__category-field">
                         <select name="" id="" class="kb-field__select">
                             <option value="" selected>Vali rubriik</option>
                             <option value="">Option2</option>
@@ -99,94 +99,47 @@
             <div class="row">
                 <div class="col-12 kb-search-form__hidden-fields kb-search-form__hidden-fields--detailed">
                     <div class="row">
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-md-6 col-lg-3">
                             <div class="row">
-                                <div class="col-12 col-md-6">
+                                <div class="col-6">
                                     <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label kb-field__label--nowrap">Hind alates</label>
                                         <input type="text" class="kb-field__input" placeholder="Hind alates">
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-6">
                                     <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label kb-field__label--nowrap">Hind kuni</label>
                                         <input type="text" class="kb-field__input" placeholder="Hind kuni">
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
-                                        <select name="" id="" class="kb-field__select">
-                                            <option value="">Tehingu tüüp</option>
-                                            <option value="">Option2</option>
-                                            <option value="">Option3</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
-                                        <select name="" id="" class="kb-field__select">
-                                            <option value="">Seisukord</option>
-                                            <option value="">Option2</option>
-                                            <option value="">Option3</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--checkbox mt-3">
-                                        <input type="checkbox" id="withImage">
-                                        <label for="withImage">Pildiga kuulutused</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--checkbox mt-3">
-                                        <input type="checkbox" id="withVideo">
-                                        <label for="withVideo">Videoga kuulutused</label>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="kb-field kb-field--select mt-3">
+                                <label for="" class="kb-field__label">Tehingu tüüp</label>
+                                <select name="" id="" class="kb-field__select">
+                                    <option value="">Tehingu tüüp</option>
+                                    <option value="">Option2</option>
+                                    <option value="">Option3</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="kb-field kb-field--input mt-3">
-                                <input type="text" class="kb-field__input" placeholder="Asukoha täpsustus">
-                            </div>
+                        <div class="col-12 col-md-6">
                             <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
-                                        <select name="" id="" class="kb-field__select">
-                                            <option value="">Tehingu tüüp</option>
-                                            <option value="">Option2</option>
-                                            <option value="">Option3</option>
-                                        </select>
+                                <div class="col-12 col-lg-6">
+                                    <div class="kb-field kb-field--input mt-3">
+                                        <label for="" class="kb-field__label">Asukoht</label>
+                                        <input type="text" class="kb-field__input" placeholder="Asukoha täpsustus">
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
-                                        <select name="" id="" class="kb-field__select">
-                                            <option value="">Seisukord</option>
-                                            <option value="">Option2</option>
-                                            <option value="">Option3</option>
-                                        </select>
+                                    <div class="kb-field kb-field--checkbox mt-3 mt-md-5">
+                                        <input type="checkbox" id="privateOnly">
+                                        <label for="privateOnly">Ainult eraisikud</label>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="kb-field kb-field--select kb-field--without-label mt-3">
-                                        <select name="" id="" class="kb-field__select">
-                                            <option value="">Vali kuulutuse vanus</option>
-                                            <option value="">Option2</option>
-                                            <option value="">Option3</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-2 mt-3 mt-lg-0">
-                            <a href="#" class="kb-btn kb-btn--primary kb-btn--full-width">OTSI</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +161,69 @@
 <div class="container">
     <div class="row">
         <div class="col-8 col-md-4 col-lg-3 col-xl-2 category-sidebar-container p-0">
-            <div class="category-sidebar">
+            <div class="category-sidebar filter-sidebar js-filter-sidebar">
+                <div class="category-sidebar__header">
+                    <div class="d-flex align-content-center">
+                        <span class="icon icon-kb-filter"></span>
+                        <strong class="ml-2">Filtreeri</strong>
+                    </div>
+                    <span class="icon icon-kb-close category-sidebar__close js-filter-sidebar-close d-lg-none"></span>
+                </div>
+                <form class="category-sidebar__content kb-filter-sidebar">
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Mark</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Vedav sild</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Käigukast</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Keretüüp</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Kütus</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Aasta alates</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <div class="kb-field kb-field--select  kb-field--without-label mt-3">
+                        <select name="" id="" class="kb-field__select">
+                            <option value="">Aasta kuni</option>
+                            <option value="">Option2</option>
+                            <option value="">Option3</option>
+                        </select>
+                    </div>
+                    <a href="#" class="kb-btn kb-btn--primary kb-btn--full-width mt-3">Filtreeri</a>
+                </form>
+            </div>
+
+            <div class="category-sidebar js-category-sidebar">
                 <div class="category-sidebar__header">
                     <div class="d-flex align-content-center">
                         <span class="icon icon-kb-list"></span>
@@ -216,7 +231,7 @@
                     </div>
                     <span class="icon icon-kb-close category-sidebar__close js-sidebar-close d-lg-none"></span>
                 </div>
-                <div class="category-sidebar__content category-tree">
+                <div class="category-sidebar__content">
                     <div class="category-tree__item category-tree__item--cars">
                         <a href="#" class="category-tree-item__name">Sõidukid (14757)</a>
                         <input type="checkbox" id="">
@@ -360,15 +375,18 @@
         <div class="col-12 col-lg-9 col-xl-10 kb-object-listing">
             <div class="row">
                 <h4 class="col-12 col-md-6 col-lg-8 kb-listing-category">Sõidukid ja sõiduvahendid</h4>
-                <div class="col-12 col-md-6  col-lg-4 kb-sorting">
-                    <span class="kb-sorting__text">Järjesta</span>
-                    <div class="kb-field kb-field--select kb-field--without-label">
-                        <select name="" id="" class="kb-field__select">
-                            <option value="">Vanemad ees</option>
-                            <option value="">Uuemad ees</option>
-                            <option value="">Hind: kasvav</option>
-                            <option value="">Hind: kahanev</option>
-                        </select>
+                <div class="col-12 col-md-6 col-lg-4 kb-sorting">
+                    <div class="kb-filter-toggle d-lg-none js-filter-sidebar-toggle"><span class="icon icon-kb-filter mr-1"></span><span class="kb-sorting__text">Filtreeri</span></div>
+                    <div class="kb-sort">
+                        <span class="kb-sorting__text">Järjesta</span>
+                        <div class="kb-field kb-field--select kb-field--without-label">
+                            <select name="" id="" class="kb-field__select">
+                                <option value="">Vanemad ees</option>
+                                <option value="">Uuemad ees</option>
+                                <option value="">Hind: kasvav</option>
+                                <option value="">Hind: kahanev</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -113,6 +113,10 @@
         display: block;
         margin-bottom: 6px;
         line-height: 16px;
+
+        &--nowrap {
+          white-space: nowrap;
+        }
       }
       &__input,
       &__select {
@@ -138,7 +142,7 @@
 
     &:before {
       font-family: 'icomoon';
-      content: '\e913';
+      content: '\e928';
       position: absolute;
       display: block;
       right: 12px;

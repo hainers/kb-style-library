@@ -4217,8 +4217,8 @@ html {
 }
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot");
-  src: url("fonts/icomoon.eot?dep2iz#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.svg") format("svg");
+  src: url("fonts/icomoon.eot?ryql6b");
+  src: url("fonts/icomoon.eot?ryql6b#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?ryql6b") format("truetype"), url("fonts/icomoon.woff?ryql6b") format("woff"), url("fonts/icomoon.svg?ryql6b#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -4237,81 +4237,386 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-kb-sort:before {
+  content: "";
+}
+
+.icon-kb-filter:before {
+  content: "";
+}
+
 .icon-kb-clipboard:before {
-  content: "";
+  content: "";
   color: #666;
 }
 
 .icon-kb-print:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-close:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-list:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-shopping-cart:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-user:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-more:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-add:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-pin:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-star:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-star-empty:before {
-  content: "";
+  content: "";
+}
+
+.icon-kb-pdf .path1:before {
+  content: "";
+  color: #e9e9e0;
+}
+
+.icon-kb-pdf .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #d9d7ca;
+}
+
+.icon-kb-pdf .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #cc4b4c;
+}
+
+.icon-kb-pdf .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: #cc4b4c;
+}
+
+.icon-kb-pdf .path5:before {
+  content: "";
+  margin-left: -1em;
+  color: white;
+}
+
+.icon-kb-pdf .path6:before {
+  content: "";
+  margin-left: -1em;
+  color: white;
+}
+
+.icon-kb-pdf .path7:before {
+  content: "";
+  margin-left: -1em;
+  color: white;
 }
 
 .icon-kb-view:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-gallery:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-delete:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-edit:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-stats:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-check:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-warning:before {
-  content: "";
+  content: "";
 }
 
 .icon-kb-arrow-down:before {
+  content: "";
+}
+
+.icon-apartments:before {
+  content: "";
+}
+
+.icon-star:before {
+  content: "";
+}
+
+.icon-facebook:before {
+  content: "";
+}
+
+.icon-menu:before {
+  content: "";
+}
+
+.icon-search:before {
+  content: "";
+}
+
+.icon-file:before {
+  content: "";
+}
+
+.icon-feed:before {
+  content: "";
+}
+
+.icon-mobile:before {
+  content: "";
+}
+
+.icon-phone-desk:before {
+  content: "";
+}
+
+.icon-phone:before {
+  content: "";
+}
+
+.icon-angle-up:before {
+  content: "";
+}
+
+.icon-angle-up-right:before {
+  content: "";
+}
+
+.icon-angle-up-left:before {
+  content: "";
+}
+
+.icon-angle-right:before {
+  content: "";
+}
+
+.icon-angle-left:before {
+  content: "";
+}
+
+.icon-angle-down:before {
+  content: "";
+}
+
+.icon-angle-down-right:before {
+  content: "";
+}
+
+.icon-angle-down-left:before {
+  content: "";
+}
+
+.icon-map-pin:before {
+  content: "";
+}
+
+.icon-heart:before {
+  content: "";
+}
+
+.icon-streetview:before {
+  content: "";
+}
+
+.icon-camping:before {
+  content: "";
+}
+
+.icon-cw:before {
+  content: "";
+}
+
+.icon-calendar:before {
+  content: "";
+}
+
+.icon-cart:before {
+  content: "";
+}
+
+.icon-info:before {
+  content: "";
+}
+
+.icon-pencil:before {
+  content: "";
+}
+
+.icon-tools:before {
+  content: "";
+}
+
+.icon-kv:before {
+  content: "";
+}
+
+.icon-cabinet:before {
+  content: "";
+}
+
+.icon-cog:before {
+  content: "";
+}
+
+.icon-double-arrow-right:before {
+  content: "";
+}
+
+.icon-double-arrow-left:before {
+  content: "";
+}
+
+.icon-doc:before {
+  content: "";
+}
+
+.icon-logout:before {
+  content: "";
+}
+
+.icon-stat:before {
+  content: "";
+}
+
+.icon-vip:before {
+  content: "";
+}
+
+.icon-phone-call:before {
+  content: "";
+}
+
+.icon-mail:before {
+  content: "";
+}
+
+.icon-user-1:before {
+  content: "";
+}
+
+.icon-development:before {
+  content: "";
+}
+
+.icon-envelope1:before {
+  content: "";
+}
+
+.icon-facebook-messenger:before {
+  content: "";
+}
+
+.icon-copy1:before {
+  content: "";
+}
+
+.icon-twitter:before {
+  content: "";
+}
+
+.icon-print1:before {
+  content: "";
+}
+
+.icon-facebook1:before {
+  content: "";
+}
+
+.icon-star1:before {
+  content: "";
+}
+
+.icon-star-fill1:before {
+  content: "";
+}
+
+.icon-kalender:before {
+  content: "";
+}
+
+.icon-euro-circle:before {
+  content: "";
+}
+
+.icon-journalist:before {
+  content: "";
+}
+
+.icon-top:before {
   content: "";
+}
+
+.icon-modulehouse:before {
+  content: "";
+}
+
+.icon-add-circle:before {
+  content: "";
+}
+
+.icon-clientday:before {
+  content: "";
+}
+
+.icon-calculator:before {
+  content: "";
+}
+
+.icon-cup:before {
+  content: "";
+}
+
+.icon-brokers:before {
+  content: "";
+}
+
+.icon-message-send:before {
+  content: "";
+}
+
+.icon-checkmark:before {
+  content: "";
+}
+
+.icon-play2:before {
+  content: "";
+}
+
+.icon-euro:before {
+  content: "";
+}
+
+.icon-linked-in:before {
+  content: "A";
 }
 
 * {
@@ -4497,6 +4802,9 @@ strong {
   margin-bottom: 6px;
   line-height: 16px;
 }
+.kb-field--input .kb-field__label--nowrap, .kb-field--select .kb-field__label--nowrap {
+  white-space: nowrap;
+}
 .kb-field--input .kb-field__input, .kb-field--input .kb-field__select, .kb-field--select .kb-field__input, .kb-field--select .kb-field__select {
   display: block;
   width: 100%;
@@ -4515,7 +4823,7 @@ strong {
 }
 .kb-field--select:before {
   font-family: "icomoon";
-  content: "";
+  content: "";
   position: absolute;
   display: block;
   right: 12px;
@@ -5097,7 +5405,7 @@ strong {
 }
 
 .breadcrumbs {
-  margin: 8px 0;
+  margin: 12px 0;
 }
 .breadcrumbs__item {
   display: inline;
@@ -5142,6 +5450,9 @@ strong {
   }
   .category-sidebar--open {
     left: 0;
+  }
+  .category-sidebar.filter-sidebar {
+    min-width: 260px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -5197,10 +5508,17 @@ strong {
 }
 
 .sidebar-toggle {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  background: #EDF2F4;
+  padding: 8px;
+  border-radius: 4px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.kb-filter-sidebar {
+  padding: 0 12px 20px;
 }
 
 .login-form {
@@ -5401,6 +5719,7 @@ strong {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 .kb-sorting .kb-field {
   flex: 0 0 200px;
@@ -5408,6 +5727,20 @@ strong {
 .kb-sorting__text {
   margin-right: 8px;
   font-weight: 500;
+}
+.kb-sorting .kb-sort {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1 0 100%;
+}
+.kb-sorting .kb-filter-toggle {
+  background: #EDF2F4;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: right;
+  margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .kb-listing-category {
@@ -5438,6 +5771,9 @@ strong {
 .kb-object-view__owner {
   display: flex;
   flex-direction: column;
+  padding: 16px 8px;
+  border-radius: 4px;
+  background-color: rgba(237, 242, 244, 0.5);
 }
 .kb-object-view__owner-image {
   display: block;
@@ -5511,6 +5847,7 @@ strong {
   align-items: center;
   justify-content: space-evenly;
   padding: 8px 4px;
+  border-radius: 4px;
   background: rgba(237, 242, 244, 0.5);
 }
 .kb-finance__logo {

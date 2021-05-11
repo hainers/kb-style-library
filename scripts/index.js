@@ -34,11 +34,19 @@ document.addEventListener('DOMContentLoaded', function(event) {
     });
 
     $('.js-sidebar-toggle').on('click', function() {
-        $('.category-sidebar').addClass('category-sidebar--open');
+        $('.js-category-sidebar').addClass('category-sidebar--open');
     });
 
     $('.js-sidebar-close').on('click', function() {
-        $('.category-sidebar').removeClass('category-sidebar--open');
+        $('.js-category-sidebar').removeClass('category-sidebar--open');
+    });
+
+    $('.js-filter-sidebar-toggle').on('click', function() {
+        $('.js-filter-sidebar').addClass('category-sidebar--open');
+    });
+
+    $('.js-filter-sidebar-close').on('click', function() {
+        $('.js-filter-sidebar').removeClass('category-sidebar--open');
     });
 
 

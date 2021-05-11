@@ -26,6 +26,9 @@
     &--open {
       left: 0;
     }
+    &.filter-sidebar {
+      min-width: 260px;
+    }
   }
 
   @media only screen and (min-width: 992px) {
@@ -95,8 +98,15 @@
 }
 
 .sidebar-toggle {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  background: #EDF2F4;
+  padding: 8px;
+  border-radius: 4px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.kb-filter-sidebar {
+  padding: 0 12px 20px;
 }
